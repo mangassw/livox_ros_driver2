@@ -36,5 +36,6 @@
     	<node pkg="rosbag" type="record" name="record" output="screen"
           		args="-a"/>
     </group>
+	<include file="$(find livox_repub)/launch/livox_repub.launch"/>
 
 </launch>
